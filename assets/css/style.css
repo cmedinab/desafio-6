@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-lila {
+    background-color:#44296b;
+    color: #fff;
+}
+
+.nav-color a {
+    color: #b7b6ee;
+   
+}
+a:hover {
+    color: #fff !important;
+}
+.navbar-altura {
+    height: 110px;
+}
+
+#seccion-encabezado {
+    background-image: url(../img/bg-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    background-color: aqua;
+    color: black;
+    height: 300px;
+}
+.tit-card {
+    color: #44296b;
+}
+#desafios img:hover {
+    filter: saturate(180%);
+}
+
+.lista ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+.lista li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+}
+footer {
+    background-color: #44296b;
+    padding: 1.5em;
+    color: #b7b6ee;
+}
+footer a {
+    color: #b7b6ee;
+    font-size: x-large;
+}
